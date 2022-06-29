@@ -6,7 +6,7 @@ run_storage:
       username: postgres
       password:
         env: PGPASSWORD
-      hostname: 34.135.204.152
+      hostname: 34.121.245.163
       db_name: dagster
       port: 5432
 
@@ -18,7 +18,7 @@ event_log_storage:
       username: postgres
       password:
         env: PGPASSWORD
-      hostname: 34.135.204.152
+      hostname: 34.121.245.163
       db_name: dagster
       port: 5432
 
@@ -30,6 +30,6 @@ schedule_storage:
       username: postgres
       password:
         env: PGPASSWORD
-      hostname: 34.135.204.152
+      hostname: 34.121.245.163
       db_name: dagster
       port: 5432
