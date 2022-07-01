@@ -9,8 +9,8 @@ ENV PYTHONWARNINGS=ignore
 ENV DAGSTER_HOME=/opt/dagster/dagster_home
 ENV DAGSTER_GRPC_MAX_RX_BYTES=20000000
 
-ENV DBT_PROFILES_DIR=/opt/dagster/app/dbt
-ENV DBT_PROJECT_DIR=/opt/dagster/app/dbt
+ENV DBT_PROFILES_DIR=/path/to/dbt
+ENV DBT_PROJECT_DIR=/path/to/dbt
 
 
 ENV PGPASSWORD=postgres
