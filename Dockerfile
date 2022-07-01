@@ -14,11 +14,11 @@ ENV DBT_PROJECT_DIR=/opt/dagster/app/dbt
 
 
 ENV PGPASSWORD=postgres
-ENV GCS_BUCKET_PROD=
+ENV GCS_BUCKET_PROD=dagster-demo-123
 
-ENV EDFI_BASE_URL=
-ENV EDFI_API_KEY=
-ENV EDFI_API_SECRET=
+ENV EDFI_BASE_URL=https://apihub-st-sandbox.midatahub.org:443/ods/data/v3/ed-fi/
+ENV EDFI_API_KEY=g0iVZSdmxmMI
+ENV EDFI_API_SECRET=Iu3TfpodEPW7jFAcEWTKrnCl
 
 
 RUN mkdir -p /opt/dagster/dagster_home /opt/dagster/app
