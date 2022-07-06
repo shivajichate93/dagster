@@ -161,7 +161,7 @@ edfi_api_dev_job = edfi_api_to_marts.to_job(
             "api_secret": os.getenv("EDFI_API_SECRET"),
             "api_page_limit": 5000,
             "api_mode": "YearSpecific", # DistrictSpecific, SharedInstance, YearSpecific
-            "api_version": "5.3"
+            "api_version": "3.1.1"
         }),
         "data_lake": gcs_client.configured({
             "staging_gcs_bucket": os.getenv("GCS_BUCKET_DEV")
