@@ -9,16 +9,15 @@ ENV PYTHONWARNINGS=ignore
 ENV DAGSTER_HOME=/opt/dagster/dagster_home
 ENV DAGSTER_GRPC_MAX_RX_BYTES=20000000
 
-ENV DBT_PROFILES_DIR=/path/to/dbt
-ENV DBT_PROJECT_DIR=/path/to/dbt
-
+ENV DBT_PROFILES_DIR=/opt/dagster/app/dbt
+ENV DBT_PROJECT_DIR=/opt/dagster/app/dbt
 
 ENV PGPASSWORD=postgres
 ENV GCS_BUCKET_PROD=dagster-demo-123
 
-ENV EDFI_BASE_URL=https://apihub-st-sandbox.midatahub.org:443/ods/data/v3/ed-fi/
-ENV EDFI_API_KEY=g0iVZSdmxmMI
-ENV EDFI_API_SECRET=Iu3TfpodEPW7jFAcEWTKrnCl
+ENV EDFI_BASE_URL=https://api.ed-fi.org/v5.3/api
+ENV EDFI_API_KEY=RvcohKz9zHI4
+ENV EDFI_API_SECRET=E1iEFusaNf81xzCxwHfbolkC
 
 
 RUN mkdir -p /opt/dagster/dagster_home /opt/dagster/app
