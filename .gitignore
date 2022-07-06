@@ -1,17 +1,3 @@
-*.db
-.env*
-!.env-sample
-service.json
-service*.json
-.telemetry
-history/
-logs/
-schedules/
-storage/
-dbt_packages/
-
-target/
-dbt_modules/
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,windows,python
